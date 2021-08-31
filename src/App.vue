@@ -15,7 +15,7 @@
 <script>
 import { reactive } from 'vue'
 import DynamicCpnt from './DynamicCpnt.vue';
-import MenuData from './menu.json'
+import MenuData from './menu.js'
 
 export default {
   name: 'App',
@@ -26,7 +26,7 @@ export default {
     });
 
     function setCurrentItem(item) {
-      // console.log(item)
+      // 记录当前菜单
       menu.current = item;
     }
 

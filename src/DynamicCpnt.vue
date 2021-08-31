@@ -1,19 +1,23 @@
-<template>
-  <ref-demo v-if="currentCpnt === 'ref'" />
-  <hello-world v-else="currentCpnt" msg="Hello Vue + Vite" />
-</template>
-
 <script>
-  import { HelloWorld, RefDemo } from './components'
+  import { h } from 'vue'
+  import CpntList from './components'
 
   export default {
     name: 'DynamicCpnt',
     props:['currentCpnt'],
-    components: {
-      HelloWorld,
-      RefDemo,
-    },
-    setup() {
-    },
+    // components: {
+    //   HelloWorld,
+    //   RefDemo,
+    // },
+    render() {
+      console.log(CpntList)
+      if (this.currentCpnt) {
+        return h(CpntList[this.currentCpnt]);
+      } else {
+        return h('div', '组件不存在');
+      }
+      // return h(HelloWorld);
+    }
+    
   }
 </script>
