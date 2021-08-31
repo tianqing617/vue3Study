@@ -21,13 +21,17 @@ export default {
   name: 'App',
   components: { DynamicCpnt },
   setup() {
+    // 生命周期说明，见底部
+    const currentMenu = JSON.parse(window.localStorage.getItem('currentMenuName'));
     const menu = reactive({
-      current: {},
+      current: currentMenu ? currentMenu : {},
     });
 
     function setCurrentItem(item) {
       // 记录当前菜单
       menu.current = item;
+      // 存入storage，方便刷新时恢复数据
+      window.localStorage.setItem('currentMenuName', JSON.stringify(item));
     }
 
     return {
@@ -38,8 +42,19 @@ export default {
   },
 }
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+/*
+Vue3.0也提供了 Composition API 形式的生命周期钩子，与Vue2.x中钩子对应关系如下：
+
+beforeCreate ===> setup()
+created ========> setup()
+beforeMount ====> onBeforeMount
+mounted ========> onMounted
+beforeUpdate ===> onBeforeUpdate
+updated  =======> onUpdated
+beforeUnmount ==> onBeforeUnmount
+unmounted  =====> onUnmounted
+
+*/
 </script>
 
 <style lang="scss">
