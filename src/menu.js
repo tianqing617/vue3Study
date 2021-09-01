@@ -12,6 +12,11 @@ export default [
   {
     "id": 3,
     "name": "SetupDemo",
-    "showName": "Setup",
-  }
+    "showName": "setup",
+  },
+  {
+    "id": 4,
+    "name": "ComputedDemo",
+    "showName": "computed",
+  },
 ]
