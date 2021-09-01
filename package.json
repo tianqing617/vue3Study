@@ -2,6 +2,7 @@
   "name": "vue3-study",
   "description": "vue3 knowledge using vite",
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,6 +13,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.2",
+    "@vitejs/plugin-vue-jsx": "^1.1.7",
     "@vue/compiler-sfc": "^3.0.5",
     "sass": "^1.38.2",
     "vite": "^2.3.0"
