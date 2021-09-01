@@ -5,8 +5,7 @@
   export default {
     name: 'DynamicCpnt',
     props:['currentCpnt'],
-    setup() {
-      console.log(CpntList)
+    render() {
       if (this.currentCpnt) {
         return h(CpntList[this.currentCpnt]);
       } else {

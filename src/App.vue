@@ -22,9 +22,9 @@ export default {
   components: { DynamicCpnt },
   setup() {
     // 生命周期说明，见底部
-    const currentMenu = JSON.parse(window.localStorage.getItem('currentMenuName'));
+    const currentMenu = JSON.parse(window.localStorage.getItem('currentMenuName')) || {};
     const menu = reactive({
-      current: currentMenu ? currentMenu : {},
+      current: currentMenu,
     });
 
     function setCurrentItem(item) {

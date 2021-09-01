@@ -8,5 +8,10 @@ export default [
     "id": 2,
     "name": "RefDemo",
     "showName": "ref",
+  },
+  {
+    "id": 3,
+    "name": "SetupDemo",
+    "showName": "Setup",
   }
 ]
