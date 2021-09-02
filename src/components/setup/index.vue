@@ -14,7 +14,6 @@
     setup() {
       let status = ref(true);
 
-
       function setStatus(s) {
         console.log('outer:', s);
         status.value = s;
