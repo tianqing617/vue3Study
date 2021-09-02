@@ -1,6 +1,7 @@
 <template>
   <ul class="sidebar">
     <li v-for="item in MenuData"
+      :class="menu.current.id === item.id ? 'select' : ''"
       @click="setCurrentItem(item)"
     >
       {{item.showName}}
@@ -81,10 +82,17 @@ unmounted  =====> onUnmounted
       height: 30px;
       line-height: 30px;
       cursor: pointer;
+      padding-left: 10px;
       &:hover {
-        color: #1444AE;
+        background-color: #5EA99B;
+        color: #fff;
       }
     }
+    .select {
+      background-color: #5EA99B;
+      color: #fff;
+    }
+
   }
 
   .main {
