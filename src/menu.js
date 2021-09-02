@@ -19,4 +19,9 @@ export default [
     "name": "ComputedDemo",
     "showName": "computed",
   },
+  {
+    "id": 5,
+    "name": "WatchDemo",
+    "showName": "watch",
+  },
 ]
