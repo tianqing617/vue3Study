@@ -5,6 +5,7 @@ import SetupDemo from './setup/index.vue'
 import ComputedDemo from './ComputedDemo.vue'
 import WatchDemo from './WatchDemo.vue'
 import WatchEffectDemo from './WatchEffectDemo.vue'
+import LifeCycleDemo from './LifeCycleDemo.vue'
 
 export default {
   Test,
@@ -14,4 +15,5 @@ export default {
   ComputedDemo,
   WatchDemo,
   WatchEffectDemo,
+  LifeCycleDemo,
 };

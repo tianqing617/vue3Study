@@ -30,6 +30,11 @@ export default [
     "showName": "watchEffect",
   },
   {
+    "id": 8,
+    "name": "LifeCycleDemo",
+    "showName": "lifecycle",
+  },
+  {
     "id": 6,
     "name": "Test",
     "showName": "test",
