@@ -35,6 +35,16 @@ export default [
     "showName": "lifecycle",
   },
   {
+    "id": 9,
+    "name": "HooksDemo",
+    "showName": "hooks",
+  },
+  {
+    "id": 10,
+    "name": "BasicReactivityDemo",
+    "showName": "basic reactivity",
+  },
+  {
     "id": 6,
     "name": "Test",
     "showName": "test",

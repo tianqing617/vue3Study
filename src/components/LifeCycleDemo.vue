@@ -67,7 +67,7 @@
     },
 
     render() {
-      return h('div', '生命周期');
+      return h('div', '生命周期：在 console 中查看结果。');
     },
   }
 </script>
