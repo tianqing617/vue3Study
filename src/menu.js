@@ -24,4 +24,14 @@ export default [
     "name": "WatchDemo",
     "showName": "watch",
   },
+  {
+    "id": 7,
+    "name": "WatchEffectDemo",
+    "showName": "watchEffect",
+  },
+  {
+    "id": 6,
+    "name": "Test",
+    "showName": "test",
+  },
 ]
