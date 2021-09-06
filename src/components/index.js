@@ -9,6 +9,7 @@ import LifeCycleDemo from './LifeCycleDemo.vue'
 import HooksDemo from './hooks/index.vue'
 import BasicReactivityDemo from './BasicReactivityDemo.vue'
 import RenderDemo from './RenderDemo.vue'
+import Render2Demo from './Render2Demo.jsx'
 
 export default {
   Test,
@@ -22,4 +23,5 @@ export default {
   HooksDemo,
   BasicReactivityDemo,
   RenderDemo,
+  Render2Demo,
 };

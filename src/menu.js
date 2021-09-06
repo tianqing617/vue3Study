@@ -50,6 +50,11 @@ export default [
     "showName": "render",
   },
   {
+    "id": 12,
+    "name": "Render2Demo",
+    "showName": "render2",
+  },
+  {
     "id": 6,
     "name": "Test",
     "showName": "test",

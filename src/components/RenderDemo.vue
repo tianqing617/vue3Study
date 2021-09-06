@@ -4,7 +4,7 @@
   export default {
     name: 'RenderDemo',
     render() {
-      // return h('div', 'render demo');
+      return h('div', 'render demo');
       
       // const Bar = defineComponent({ render() { return <div>Test</div> }});
       // return Bar;
