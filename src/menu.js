@@ -45,6 +45,11 @@ export default [
     "showName": "basic reactivity",
   },
   {
+    "id": 11,
+    "name": "RenderDemo",
+    "showName": "render",
+  },
+  {
     "id": 6,
     "name": "Test",
     "showName": "test",

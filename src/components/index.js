@@ -8,6 +8,7 @@ import WatchEffectDemo from './WatchEffectDemo.vue'
 import LifeCycleDemo from './LifeCycleDemo.vue'
 import HooksDemo from './hooks/index.vue'
 import BasicReactivityDemo from './BasicReactivityDemo.vue'
+import RenderDemo from './RenderDemo.vue'
 
 export default {
   Test,
@@ -20,4 +21,5 @@ export default {
   LifeCycleDemo,
   HooksDemo,
   BasicReactivityDemo,
+  RenderDemo,
 };
