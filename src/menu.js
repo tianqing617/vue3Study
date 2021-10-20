@@ -55,6 +55,11 @@ export default [
     "showName": "render2",
   },
   {
+    "id": 13,
+    "name": "SocketDemo",
+    "showName": "socket",
+  },
+  {
     "id": 6,
     "name": "Test",
     "showName": "test",

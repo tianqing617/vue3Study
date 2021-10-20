@@ -10,6 +10,7 @@ import HooksDemo from './hooks/index.vue'
 import BasicReactivityDemo from './BasicReactivityDemo.vue'
 import RenderDemo from './RenderDemo.vue'
 import Render2Demo from './Render2Demo.jsx'
+import SocketDemo from './socket/index.vue'
 
 export default {
   Test,
@@ -24,4 +25,5 @@ export default {
   BasicReactivityDemo,
   RenderDemo,
   Render2Demo,
+  SocketDemo,
 };
