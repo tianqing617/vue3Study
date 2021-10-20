@@ -25,6 +25,9 @@
 
   <div class="controller">
     <p>
+      <span>计算属性在setup中的用法：</span>
+      <button @click="showComputed">显示计算属性</button>
+    </p><p>
       <span>声明方法，方式一：</span>
       <button @click="showFullName">显示全名1</button>
     </p>
@@ -56,6 +59,7 @@
         console.log('fullName2: ', fullName);
       }
 
+      // computed 在setup中的用法
       person.fullname = computed({
         get() {
           if (person.first) {
@@ -76,10 +80,16 @@
             person.second = '';
           }
         }
-      })
+      });
+
+      function showComputed() {
+        console.log('person: ', person);
+        console.log('computed: ', person.fullname);
+      }
 
       return {
         person,
+        showComputed,
         showFullName,
         showFullName2,
       }
