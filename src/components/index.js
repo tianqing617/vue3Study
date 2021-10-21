@@ -11,6 +11,7 @@ import BasicReactivityDemo from './BasicReactivityDemo.vue'
 import RenderDemo from './RenderDemo.vue'
 import Render2Demo from './Render2Demo.jsx'
 import SocketDemo from './socket/index.vue'
+import VuexDemo from './VuexDemo.vue'
 
 export default {
   Test,
@@ -26,4 +27,5 @@ export default {
   RenderDemo,
   Render2Demo,
   SocketDemo,
+  VuexDemo,
 };
