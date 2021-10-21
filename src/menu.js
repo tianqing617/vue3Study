@@ -60,6 +60,11 @@ export default [
     "showName": "socket",
   },
   {
+    "id": 14,
+    "name": "VuexDemo",
+    "showName": "vuex",
+  },
+  {
     "id": 6,
     "name": "Test",
     "showName": "test",
