@@ -82,6 +82,15 @@
         }
       });
 
+      // computed 的简写形式
+      person.fullname2 = computed(() => {
+        if (person.first) {
+          return person.first + '-' + person.second;
+        } else {
+          return '';
+        }
+      });
+
       function showComputed() {
         console.log('person: ', person);
         console.log('computed: ', person.fullname);
